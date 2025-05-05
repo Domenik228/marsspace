@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 18px;
+    color: #2b2bff;
+  }
+  
+  .lang {
+    font-size: 16px;
+  }
+  
+  main {
+       display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .form-container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  .form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .offer {
+    color: #ff2a00;
+    cursor: default;
+    font-weight: 600;
+  }
+  
+  .toggle-buttons {
+    display: flex;
+    margin: 15px 0;
+  }
+  
+  .toggle-buttons button {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background: #f0f0f0;
+  }
+  
+  .toggle-buttons .active {
+    background: #d0d0ff;
+    border: 2px solid #0000ff;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .password-wrapper {
+    position: relative;
+  }
+  
+  .toggle-eye {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+  
+  small {
+    display: block;
+    margin-bottom: 15px;
+    color: gray;
+  }
+  
+  button#submitBtn {
+    width: 100%;
+    padding: 10px;
+    background: #999;
+    color: white;
+    border: none;
+    cursor: not-allowed;
+  }
+  
+  button#submitBtn.enabled {
+    background: #2b2bff;
+    cursor: pointer;
+  }
+  
